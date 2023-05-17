@@ -1,3 +1,13 @@
 {
-  "user": []
+  "user": [
+    {
+      "id": "abc-xyc-1qwe",
+      "name": "ADMIN",
+      "username": "admin",
+      "password": "quyet@123",
+      "email": "quyetnv@gmail.com",
+      "role": null,
+      "isActive": false
+    }
+  ]
 }

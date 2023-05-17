@@ -1,3 +1,11 @@
 {
+  "auth": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "name": "Họ tên",
+    "username": "Tên người dùng",
+    "password": "Mật khẩu",
+    "email": "Địa chỉ Email"
+  },
   "name": "Tên"
 }

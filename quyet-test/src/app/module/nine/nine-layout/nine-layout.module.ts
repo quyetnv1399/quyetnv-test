@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NineLayoutComponent } from './nine-layout.component';
+import { NineLayoutComponent } from './view/nine-layout.component';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { NineLayoutRoutes } from './nine-layout.routing';

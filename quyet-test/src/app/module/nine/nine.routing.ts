@@ -1,5 +1,5 @@
 import { Routes, RouterModule } from '@angular/router';
-import { NineLayoutComponent } from './nine-layout/nine-layout.component';
+import { NineLayoutComponent } from './nine-layout/view/nine-layout.component';
 
 const routes: Routes = [
   { path: '', redirectTo: "nine", pathMatch: "full" },
