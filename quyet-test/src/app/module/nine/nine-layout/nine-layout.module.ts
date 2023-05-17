@@ -6,6 +6,7 @@ import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { NineLayoutRoutes } from './nine-layout.routing';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzIconModule } from 'ng-zorro-antd/icon';
+import { I18nModule } from 'src/app/i18n/i18n.module';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
     NzBreadCrumbModule,
     NzMenuModule,
     NzIconModule,
-    NineLayoutRoutes
+    NineLayoutRoutes,
+    I18nModule
   ],
   declarations: [NineLayoutComponent]
 })
