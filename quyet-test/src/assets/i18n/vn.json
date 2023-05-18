@@ -1,4 +1,12 @@
 {
+  "action": "Hành động",
+
+  "button": {
+    "add_new": "Thêm mới",
+    "update": "Cập nhật",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa"
+  },
   "auth": {
     "login": "Đăng nhập",
     "register": "Đăng ký",

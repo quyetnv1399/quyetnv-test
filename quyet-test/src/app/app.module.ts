@@ -23,6 +23,7 @@ import { NzInputNumberModule } from 'ng-zorro-antd/input-number';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { LoginComponent } from './auth/login/view/login.component';
 import { RegisterComponent } from './auth/register/view/register.component';
+import { SharedModule } from './_shared/shared/shared.module';
 
 registerLocaleData(en);
 
@@ -35,22 +36,13 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
     AppComponent,
     LoginComponent,
     RegisterComponent
-   ],
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    ReactiveFormsModule,
-    NineModule,
-    FormsModule,
-    I18nModule,
     BrowserAnimationsModule,
-
-    NzCardModule,
-    NzInputModule,
-    NzButtonModule,
-    NzFormModule,
-    NzInputNumberModule
+    NineModule,
+    SharedModule
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US }
